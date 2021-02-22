@@ -1,3 +1,7 @@
-def call(String url) {
-  git "url: $url"
+package com.tnvr
+
+def call(repo) {
+  git url: "${repo}"
 }
+
+return this

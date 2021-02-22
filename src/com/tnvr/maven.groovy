@@ -1,7 +1,7 @@
 package com.tnvr
-class Utilities implements Serializable {
+class maven implements Serializable {
   def steps
-  Utilities(steps) {this.steps = steps}
+  maven(steps) {this.steps = steps}
   def mvn(args) {
     steps.sh "${steps.tool 'Maven'}/bin/mvn -o ${args}"
   }

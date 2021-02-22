@@ -1,6 +1,6 @@
 package com.tnvr.shared-lib
 
-def checkOutFrom(repo) {
+def call(repo) {
   git url: "tnvrgit@github.com:tnvrgit/${repo}"
 }
 

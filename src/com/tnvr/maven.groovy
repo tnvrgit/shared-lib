@@ -1,7 +1,7 @@
 package com.tnvr
-class maven1 {
+class maven {
   def steps
-  maven1(steps) {
+  maven(steps) {
     this.steps = steps
   }
   def mvn(args) {

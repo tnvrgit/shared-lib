@@ -1,5 +1,5 @@
 package com.tnvr
-class maven implements Serializable {
+class maven {
   def steps
   maven(steps) {this.steps = steps}
   def mvn(args) {

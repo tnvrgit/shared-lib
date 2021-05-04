@@ -1,5 +1,5 @@
-def call() {
-  script: 'mvn clean package'
+def call(String goal) {
+  script: 'mvn ${goal}'
 }
 
 return this

@@ -1,5 +1,5 @@
-def call(String goal) {
-  script: 'mvn ${goal}'
+def call(String goal, String pomPath) {
+  script: 'mvn ${goal} -f ${pomPath}'
 }
 
 return this

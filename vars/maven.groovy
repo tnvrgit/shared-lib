@@ -1,4 +1,4 @@
-def call(repo) {
+def call() {
   script: 'mvn clean package'
 }
 

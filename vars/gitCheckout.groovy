@@ -1,7 +1,7 @@
 package com.tnvr
 
 def call(repo) {
-  git url: "${repo}"
+  script: 'git clone ${repo}'
 }
 
 return this

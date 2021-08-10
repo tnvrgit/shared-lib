@@ -1,6 +1,6 @@
 
-def call(repo) {
-  script: 'git clone -b master ${repo}'
+def call(repo, branch) {
+  script: 'git clone -b ${branch} ${repo}'
 }
 
 return this
